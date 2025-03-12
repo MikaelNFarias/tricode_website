@@ -5,7 +5,7 @@ import packageJson from '../package.json';
 import GlobalStyle from '../styles/globalStyles';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const version = `${packageJson.name.toUpperCase()}${packageJson.version}`;
+  //const version = `${packageJson.name.toUpperCase()}${packageJson.version}`;
 
   return (
     <>
