@@ -10,7 +10,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Home - TriCode</title>
       </Head>
-      INICIO
+      <G.Container>
+        <G.Logo src="/logo.png" alt="Logo" />
+        <G.Message>Em desenvolvimento...</G.Message>
+      </G.Container>
     </G.HomeBackground>
   );
 };
